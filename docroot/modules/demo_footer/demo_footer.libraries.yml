@@ -1,0 +1,5 @@
+footer:
+  version: 1.x
+  css:
+    theme:
+      css/footer.css: {}

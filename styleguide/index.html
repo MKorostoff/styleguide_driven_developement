@@ -1,0 +1,86 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="ie ie6 lte9 lte8 lte7 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]>   <html class="ie ie7 lte9 lte8 lte7 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]>   <html class="ie ie8 lte9 lte8 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]>   <html class="ie ie9 lte9 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 9]><html class="ie no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="cleartype" content="on">
+    <title>Style guide</title>
+    <meta name="description" content="">
+    <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortlink" href="/node" />
+    <link rel="canonical" href="/node" />
+    <!-- Apple mobile icons -->
+    <!-- Place favicon.ico in the root directory -->
+    <!-- CSS Style sheets -->
+    <link rel="stylesheet" href="css/styleguide.css">
+    <!-- Javascripts are on bottom but this is needed here or not at all -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Open graph properties -->
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
+  </head>
+
+  <body id="sg-all" class="sg-sidebar-open">
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <aside id="sg-sidebar">
+      <nav class="sg-sections">
+        <h2><a href="index.html">Styleguide</a></h2>
+        <ul>
+            <ul>
+              <li><a href="#" rel="components/main_menu.html">Main Menu</a></li>
+              <li><a href="#" rel="components/footer.html">Footer</a></li>
+              <li><a href="#" rel="components/accordion.html">Accordion Menu</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!--
+    ABOUT:
+      This is main page for adding pages to style guide.
+      This should be probably changed to some automatic building
+      system like Jekyll but that would add complexity.
+      JS in js/scripts.js is used to load into iframe, MENU has to be
+      manually changed.
+
+    USE:
+      - Create page/block in respective directory
+      - Add to menu <ul> on top like others
+    TODO:
+      - Add heading with OLY-[issue-id], front-end dev, backend dev
+      - Add code field for copy/paste
+      - Add JS to copy "all on click"
+      - Add comment field
+    -->
+
+    <div id="sg-content">
+      <iframe id="sg-iframe" src="components/styleguide.html" frameborder="0"></iframe>
+    </div>
+
+    <a href="#" id="sg-toggle" title="Click to toggle menu"><i class="icon-menu"></i></a>
+
+    <!-- Footer scripts -->
+    <script src="js/vendor/jquery-1.11.3.min.js"></script>
+    <!-- <script src="js/plugins.js"></script> -->
+    <script src="js/styleguide_index.js"></script>
+  </body>
+</html>

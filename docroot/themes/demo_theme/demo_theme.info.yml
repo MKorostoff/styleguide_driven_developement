@@ -1,0 +1,18 @@
+name: 'demo_theme'
+type: theme
+description: 'A demo drupal 8 theme'
+libraries:
+  - demo_theme/global-styling
+regions:
+  header: 'Header'
+  messages: 'Messages'
+  navigation: 'Navigation'
+  sidebar: 'Sidebar'
+  sidebar_two: 'Sidebar Two'
+  content: 'Main content'
+  footer: 'Footer'
+features:
+    - favicon
+    - logo
+version: 8.0.x
+core: 8.x

@@ -1,0 +1,6 @@
+name: Demo Footer
+description: Creates a footer.
+package: Custom
+
+type: module
+core: 8.x
